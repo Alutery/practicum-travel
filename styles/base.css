@@ -1,0 +1,17 @@
+:root {
+  --background-color: #2a2c2f;
+}
+
+body {
+  background: var(--background-color);
+  font-family: "Inter", sans-serif;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+}

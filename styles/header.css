@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  max-width: 1184px;
+  width: 100%;
+  padding-top: 30px;
+}
+
+.header__container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  width: 176px;
+}
+
+.lang {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.lang__label {
+}
+
+.lang__radio-input[type="radio"] {
+  display: none;
+}
+
+.lang__radio-text {
+  transition: 0.5 ease-in;
+}
+
+.lang__radio-input[type="radio"]:checked + .lang__radio-text {
+  text-decoration: underline;
+}
